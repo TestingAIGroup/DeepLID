@@ -8,7 +8,11 @@ This repository includes details about the artifact corresponding to implementat
 
 # Details
 craft_adv_examples.py is used to generates adversarial examples by implement five state-of-the-art adversarial attack strategies.
+
 neural_networks: DNN models trained on four image datasets, i.e., MNIST, Fashion-MNIST, CIFAR-10, and Udacity Driving Dataset.
+
 coverage: compute the coverage of DNN models, including, NC, KMNC, TKNC, NBC, LSC, DSC, LDSC, and TNSC. For each criterion, we utilize the hyperparameters recommended in their original research.
+
 class: measure the LidSA values of test inputs on classification models.
+
 reg: measure the LidSA values of test inputs on regression models.
